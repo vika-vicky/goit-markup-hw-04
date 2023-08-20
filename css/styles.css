@@ -431,3 +431,18 @@ img {
     margin-bottom: 8px;
     text-align: left;
 }
+
+/* homework 4 */
+/* header */
+.menu-item:hover,
+.menu-item:focus {
+    border-bottom: 4px solid var(--ocean);
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), url(/images/hero4/people-office-hero.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
