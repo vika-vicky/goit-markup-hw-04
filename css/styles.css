@@ -439,10 +439,34 @@ img {
     border-bottom: 4px solid var(--ocean);
 }
 
+.all-headers {
+    position: sticky;
+    top: 0;
+}
+
 .hero-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
 rgba(46, 47, 66, 0.7)), url(/images/hero4/people-office-hero.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+}
+
+/* customers */
+.customers {
+    padding: 120px 0;
+}
+.customers-title {
+    margin-bottom: 72px;
+}
+
+.customers-list {
+display: flex;
+gap: 24px;
+justify-content: center;
+align-items: center;
+}
+
+.customers-list-item {
+    max-width: calc((100%-120) / 6);
 }
