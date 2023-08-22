@@ -470,3 +470,16 @@ align-items: center;
 .customers-list-item {
     max-width: calc((100%-120) / 6);
 }
+
+/* portfolio */
+/* buttons */
+.filter-buttons-section:hover,
+.filter-buttons-section:active {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);;
+}
+
+
+.offers-list-item:hover,
+.offers-list-item:active {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
