@@ -7,6 +7,7 @@
     --ocean: #404bbf;
     --navy-blue: #2e2f42;
     --slate: #434455;
+    --light-slate: #8E8F99;
 }
 
 *,
@@ -100,6 +101,47 @@ address {
     line-height: 1.5;
     color: var(--cloud);
     letter-spacing: 0.02em;
+}
+
+/* hw 2-3 footer */
+.footer-class {
+    padding: 100px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    max-width: 264px;
+}
+
+/* hw 4 footer */
+
+.footer-container {
+    display: flex;
+}
+
+.footer-soc-media {
+    padding-left: 120px;
+}
+.footer-soc-media-icons {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-soc-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 /* page 1 */
@@ -368,19 +410,7 @@ img {
     text-align: center;
 }
 
-/* footer */
-.footer-class {
-    padding: 100px 0;
-}
 
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer-text {
-    max-width: 264px;
-}
 
 /* portfolio */
 /* buttons */
@@ -449,10 +479,40 @@ img {
 rgba(46, 47, 66, 0.7)), url(/images/hero4/people-office-hero.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size:contain;
+}
+/* pillars */
+.pillar-icon-container {
+background-color: var(--cloud);
+padding: 24px 100px;
+margin-bottom: 8px;
+border-radius: 4px;
 }
 
-/* customers */
+/* soc-media */
+
+.our-team-icons {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.our-team-icons-item-wrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 1px solid var(--iris);
+    background-color: var(--iris);
+} 
+
+
+/* hw 4 customers */
 .customers {
     padding: 120px 0;
 }
@@ -471,7 +531,16 @@ align-items: center;
     max-width: calc((100%-120) / 6);
 }
 
-/* portfolio */
+.customers-icon-container {
+    fill: var(--light-slate);
+    border: solid 1px var(--light-slate);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+
+
+/* hw 4 portfolio */
 /* buttons */
 .filter-buttons-section:hover,
 .filter-buttons-section:active {
