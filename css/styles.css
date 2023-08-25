@@ -59,6 +59,20 @@ nav .logo {
 
     /* hw 4 */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute; 
+    left: 0;
+    bottom: -1px; 
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
 }
 
 .menu-item:hover,
@@ -79,6 +93,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover,
@@ -427,6 +442,7 @@ img {
     border-bottom: 1px solid var(--cornflower);
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .all-headers-content {
