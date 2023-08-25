@@ -135,6 +135,10 @@ address {
     padding: 100px 0;
 }
 
+.footer-left-side {
+    margin-right: 120px;
+}
+
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -148,10 +152,13 @@ address {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
+
 }
 
 .footer-soc-media {
     padding-left: 120px;
+
 }
 
 .footer-soc-media-icons {
@@ -162,7 +169,7 @@ address {
     gap: 16px;
 }
 
-.footer-icons-item-wrapper {
+.footer-icons-item {
     width: 40px;
     height: 40px;
     display: flex;
@@ -175,8 +182,8 @@ address {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-item-wrapper:hover,
-.footer-icons-item-wrapper:focus {
+.footer-icons-item:hover,
+.footer-icons-item:focus {
     border: #31D0AA;
     background-color: #31D0AA;
 }
@@ -189,6 +196,7 @@ address {
     color: var(--white);
     padding-top: 0px;
     margin-top: 0px;
+    margin-bottom: 16px;
 }
 
 /* page 1 */
