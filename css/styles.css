@@ -194,6 +194,8 @@ address {
 /* section 1 hero  */
 .hero-section {
     background-color: var(--navy-blue);
+    max-width: 1440px;
+    background-size: cover;
 }
 
 .page-header {
@@ -608,7 +610,7 @@ padding: 40px 32px 164px 32px;
             rgba(46, 47, 66, 0.7)), url(/images/hero4/people-office-hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 /* pillars */
@@ -617,4 +619,8 @@ padding: 40px 32px 164px 32px;
     padding: 24px 100px;
     margin-bottom: 8px;
     border-radius: 4px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 112px;
 }
