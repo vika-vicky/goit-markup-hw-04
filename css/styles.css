@@ -349,8 +349,8 @@ address {
     align-items: center;
 }
 
-.customers-list-item {
-    max-width: calc((100%-120)/6);
+.icon-logo-customers {
+    width: calc((100% - 120px) / 6);
     height: 88px;
 }
 
