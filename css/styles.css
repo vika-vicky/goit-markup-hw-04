@@ -306,12 +306,6 @@ address {
     gap: 24px;
 }
 
-.our-team-icons-item-wrapper {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-}
-
 .soc-media-icons-link:hover,
 .soc-media-icons-link:focus {
     border: 1px solid var(--ocean);
