@@ -169,7 +169,6 @@ address {
 .footer-icons-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-item-link {
@@ -184,7 +183,7 @@ address {
 
     border: 1px solid var(--iris);
 
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .footer-icons-item-link:hover,
@@ -607,6 +606,18 @@ img {
     margin-bottom: 8px;
 }
 
+/* hw 4 */
+.pillar-icon-container {
+    background-color: var(--cloud);
+    padding: 24px 100px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+}
+
 /* section 3 */
 .what-we-do-section {
     padding: 120px 0;
@@ -700,24 +711,3 @@ img {
     text-align: left;
 }
 
-/* homework 4 */
-/* header */
-
-
-.all-headers {
-    position: sticky;
-    top: 0;
-}
-
-
-/* pillars */
-.pillar-icon-container {
-    background-color: var(--cloud);
-    padding: 24px 100px;
-    margin-bottom: 8px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-}
